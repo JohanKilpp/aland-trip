@@ -200,7 +200,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 /* ── INFO ── */
 .info-page{padding:14px 14px 90px}
 .info-section{margin-bottom:18px}
-.info-title{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:9px;padding-left:3px}
+.info-title{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#8B0000;margin-bottom:9px;padding-left:3px}
 .info-card{background:var(--card);border:1px solid var(--border2);border-radius:14px;overflow:hidden;box-shadow:0 1px 4px var(--shadow)}
 .info-row{display:flex;align-items:flex-start;gap:11px;padding:11px 13px;border-bottom:1px solid var(--border2)}
 .info-row:last-child{border-bottom:none}
@@ -210,9 +210,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .info-link{color:var(--sea);text-decoration:none;font-size:12px}
 
 /* ── BOTTOM NAV ── */
-.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:rgba(248,253,250,0.97);border-top:1px solid var(--border);display:flex;padding:7px 4px calc(7px + env(safe-area-inset-bottom));gap:1px;z-index:200;backdrop-filter:blur(10px)}
-.bnav-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:5px 2px;border:none;background:transparent;color:var(--muted);font-size:9px;font-weight:500;cursor:pointer;border-radius:10px;transition:color 0.15s}
-.bnav-btn.active{color:var(--pine)}
+/* ── BOTTOM NAV ── */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:rgba(242, 238, 229, 0.97);border-top:1px solid #dcd3c6;display:flex;padding:7px 4px calc(7px + env(safe-area-inset-bottom));gap:1px;z-index:200;backdrop-filter:blur(10px)}
+.bnav-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:5px 2px;border:none;background:transparent;color:#8C7A7A;font-size:9px;font-weight:500;cursor:pointer;border-radius:10px;transition:color 0.15s}
+.bnav-btn.active{color:#8B0000}
 .bnav-btn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8}
 
 .chevron{width:16px;height:16px;stroke:var(--muted);fill:none;stroke-width:2;transition:transform 0.2s;flex-shrink:0}
